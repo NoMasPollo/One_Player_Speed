@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>1 Player Speed</title>
+   <link href="style.css" rel="stylesheet" />
+   <script src="script.js"></script>
+</head>
+
+<body>
+    <p>Click on the button to start the game. RULES: You may play cards from your hand on top of cards on the face up piles if they are within one rank of each other, aces count as both less than twos and more than kings. You play cards by first clicking the card in your hand then on another in the face-up piles. You may cancel this action by pressing the big red "X". Unless you have a card selected, you may flip the top cards of the two facedown piles onto the faceup piles. This may allow you to continue play. Unless you have a card selected, you may press the draw button, which will draw you a full hand from the deck if you have any missing cards. When you run out of cards in the deck and hand, you win. If you run out of cards in both face-down piles, you may concede and lose the game by clicking said empty piles.</p>
+    <button type="button" onclick="startGame()">Start Game</button>
+    <br />
+
+    <p id="timer">0.0</p>
+
+    <div id="bck1">
+        <img src="PlayingCards/EmptyHidden.png" id="backup1" alt="Empty." />
+        <p id="backup1Remaining">0</p>
+    </div>
+    <div id="pl1">
+        <img src="PlayingCards/EmptyHidden.png" id="pile1" alt="Empty." />
+    </div>
+    <div id="pl2">
+        <img src="PlayingCards/EmptyHidden.png" id="pile2" alt="Empty." />
+    </div>
+    <div id="bck2">
+        <img src="PlayingCards/EmptyHidden.png" id="backup2" alt="Empty." />
+        <p id="backup2Remaining">0</p>
+    </div>
+    <div id="canc">
+        <p id="cancel">X</p>
+    </div>
+    <div id="dck">
+        <img src="PlayingCards/EmptyHidden.png" id="deck" alt="Empty." />
+        <p id="deckRemaining">0</p>
+    </div>
+    <div id="hand">
+        <img src="PlayingCards/EmptyHidden.png" id="logoImg" alt="Empty." />
+        <img src="PlayingCards/EmptyHidden.png" id="logoImg" alt="Empty." />
+        <img src="PlayingCards/EmptyHidden.png" id="logoImg" alt="Empty." />
+        <img src="PlayingCards/EmptyHidden.png" id="logoImg" alt="Empty." />
+        <img src="PlayingCards/EmptyHidden.png" id="logoImg" alt="Empty." />
+    </div>
+</body>

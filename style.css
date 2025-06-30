@@ -1,0 +1,85 @@
+img{
+    display: flex;
+    width: 150px;
+    height: 225px;
+    border: 1px;
+}
+#bck1{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+
+#backup1Remaining{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 2em;
+    font-weight:bolder;
+    text-align: center;
+}
+
+#pl1{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+
+#pl2{
+    position: absolute;
+    left: 850px;
+    top: 200px;
+}
+
+#bck2{
+    position: absolute;
+    left: 1100px;
+    top: 200px;
+}
+
+#backup2Remaining{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 2em;
+    font-weight:bolder;
+    text-align: center;
+}
+
+#dck{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+
+#deckRemaining{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 2em;
+    font-weight:bolder;
+    text-align: center;
+}
+
+#hand{
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    width: 1050px;
+}
+
+#hand *{
+    position:relative;
+    padding-right: 50px;
+    display: inline-flex;
+}
+
+#cancel{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 1350px;
+    color: red;
+    font-weight:bolder;
+    font-size: 6em;
+}
