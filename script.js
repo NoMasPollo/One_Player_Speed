@@ -306,7 +306,7 @@ class Handler {
         }
         else{
             this.backup1Element.src = "PlayingCards/Cardback.png";
-            this.backup2Element.alt = this.backup2.length + " cards.";
+            this.backup2Element.alt = this.backup1.length + " cards.";
         }
 
         if(this.backup2.length == 0){
